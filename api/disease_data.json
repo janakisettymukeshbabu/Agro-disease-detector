@@ -1,0 +1,81 @@
+{
+  "Blight": {
+    "crop": "Corn / Maize",
+    "disease": "Blight",
+    "full_name": "Northern/Southern Leaf Blight",
+    "description": "A fungal disease caused by Exserohilum turcicum. Forms large, cigar-shaped gray-green to tan lesions on leaves.",
+    "severity": "High",
+    "solution": [
+      "Apply fungicides containing azoxystrobin or propiconazole at early infection stage.",
+      "Remove and destroy heavily infected plant debris.",
+      "Apply mancozeb (2g/L) or chlorothalonil spray every 7-10 days.",
+      "Ensure proper field drainage to reduce humidity."
+    ],
+    "prevention": [
+      "Use certified blight-resistant maize seed varieties.",
+      "Practice crop rotation — avoid planting maize in the same field consecutively.",
+      "Maintain proper plant spacing for good air circulation.",
+      "Avoid overhead irrigation; use drip irrigation instead.",
+      "Apply balanced fertilizers — avoid excess nitrogen."
+    ]
+  },
+  "Common_Rust": {
+    "crop": "Corn / Maize",
+    "disease": "Common Rust",
+    "full_name": "Common Rust (Puccinia sorghi)",
+    "description": "A fungal disease forming small, circular to elongated, golden-brown to brick-red pustules on both leaf surfaces.",
+    "severity": "Medium",
+    "solution": [
+      "Apply triazole-based fungicides (tebuconazole or propiconazole) at first sign of pustules.",
+      "Spray mancozeb 75% WP at 2.5g/L water every 10 days.",
+      "Remove severely infected leaves to reduce spore spread.",
+      "Apply sulfur-based fungicide as an early intervention."
+    ],
+    "prevention": [
+      "Plant rust-resistant hybrid maize varieties.",
+      "Early planting to avoid peak rust season.",
+      "Monitor crops regularly from the seedling stage.",
+      "Avoid excessive use of nitrogen fertilizers.",
+      "Ensure good field drainage and air circulation."
+    ]
+  },
+  "Gray_Leaf_Spot": {
+    "crop": "Corn / Maize",
+    "disease": "Gray Leaf Spot",
+    "full_name": "Gray Leaf Spot (Cercospora zeae-maydis)",
+    "description": "A fungal disease producing rectangular, gray to tan lesions with parallel edges, limited by leaf veins.",
+    "severity": "High",
+    "solution": [
+      "Apply strobilurin fungicides (azoxystrobin, pyraclostrobin) at tasseling stage.",
+      "Spray chlorothalonil or mancozeb at 7-14 day intervals.",
+      "Reduce crop residue by deep plowing after harvest.",
+      "Apply foliar fungicide when 5% of leaf area shows symptoms."
+    ],
+    "prevention": [
+      "Use gray leaf spot resistant or tolerant hybrid varieties.",
+      "Practice minimum 2-year crop rotation with non-host crops.",
+      "Avoid conservation tillage in high-risk areas.",
+      "Plant early to escape high humidity periods.",
+      "Ensure proper plant density to reduce canopy moisture."
+    ]
+  },
+  "Healthy": {
+    "crop": "Corn / Maize",
+    "disease": "None",
+    "full_name": "Healthy Plant",
+    "description": "The plant shows no signs of disease. Leaves are green, firm and free from spots, rust or blight.",
+    "severity": "None",
+    "solution": [
+      "No treatment needed.",
+      "Continue regular monitoring every 7 days.",
+      "Maintain current farming practices."
+    ],
+    "prevention": [
+      "Continue using certified disease-free seeds.",
+      "Maintain balanced fertilization schedule.",
+      "Keep proper irrigation and drainage.",
+      "Regular field scouting for early disease detection.",
+      "Keep surrounding areas free from weed hosts."
+    ]
+  }
+}
