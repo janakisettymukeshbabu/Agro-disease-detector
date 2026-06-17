@@ -68,7 +68,7 @@ This creates `api/model.h5` and `api/class_indices.json`
 cd api
 python app.py
 ```
-API runs at: http://localhost:5000
+API runs at: https://agro-disease-detector.onrender.com/predict
 
 ### Step 5 — Start React Frontend (Terminal 2)
 ```bash
@@ -76,7 +76,7 @@ cd frontend
 npm install
 npm run dev
 ```
-Frontend runs at: http://localhost:5173
+Frontend runs at: https://agro-disease-detector.onrender.com/predict
 
 ---
 

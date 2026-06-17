@@ -163,6 +163,6 @@ def predict():
 if __name__ == "__main__":
     print()
     print("Starting Agro Disease Detection API...")
-    print("API running at: http://localhost:5000")
+    print("API running at: https://agro-disease-detector.onrender.com/diseases")
     print("React should run at: http://localhost:5173")
     app.run(host="0.0.0.0", port=5000)

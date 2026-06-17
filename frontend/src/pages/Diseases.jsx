@@ -10,7 +10,7 @@ export default function Diseases() {
 
   // Load all diseases from Flask API on page load
   useEffect(() => {
-    axios.get('http://localhost:5000/diseases')
+    axios.get('https://agro-disease-detector.onrender.com/diseases')
       .then(res => {
         setDiseases(res.data)
         setLoading(false)

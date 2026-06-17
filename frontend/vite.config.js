@@ -6,8 +6,8 @@ export default defineConfig({
   server: {
     port: 5173,
     proxy: {
-      '/predict':  'http://localhost:5000',
-      '/diseases': 'http://localhost:5000',
+      '/predict':  'https://agro-disease-detector.onrender.com/predict',
+      '/diseases': 'https://agro-disease-detector.onrender.com/predict',
     }
   }
 })
