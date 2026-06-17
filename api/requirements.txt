@@ -1,7 +1,6 @@
-tensorflow
-keras
 flask
 flask-cors
-pillow
+tensorflow
 numpy
-matplotlib
+pillow
+gunicorn==23.0.0
