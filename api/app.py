@@ -165,4 +165,4 @@ if __name__ == "__main__":
     print("Starting Agro Disease Detection API...")
     print("API running at: http://localhost:5000")
     print("React should run at: http://localhost:5173")
-    app.run(debug=True, port=5000)
+    app.run(host="0.0.0.0", port=5000)
