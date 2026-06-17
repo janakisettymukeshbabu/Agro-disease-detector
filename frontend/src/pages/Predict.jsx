@@ -57,7 +57,7 @@ export default function Predict() {
       formData.append('image', image)
 
       // POST to Flask /predict
-      const response = await axios.post('http://localhost:5000/predict', formData, {
+      const response = await axios.post('https://agro-disease-detector.onrender.com/predict', formData, {
         headers: { 'Content-Type': 'multipart/form-data' }
       })
 
